@@ -75,11 +75,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-😎 **Abdo Amin**
+👤 **Mir Rawshan Ali**
 
-- GitHub: [@Abdelrhman-Amin](https://github.com/AbdelrhmanAmin)
-- Twitter: [@Abdo Amin](https://twitter.com/AbdoAmi60489112)
-- LinkedIn: [@Abdo Amin](https://www.linkedin.com/in/abdoamin/)
+- GitHub: [@sumon0002009](https://github.com/sumon0002001)
+- Twitter: [@sumon0002009](https://twitter.com/Sumon0002009)
+- LinkedIn: [Mir Rawshan Ali](https://www.linkedin.com/in/mir-rawshan-ali/)
 
 ## Show your support
 
