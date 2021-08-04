@@ -1,0 +1,74 @@
+.login-container {
+  background-image: url('../ui/login-bg.jpg');
+  background-size: cover;
+  background-position: 50% 100%;
+  height: 100vh;
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.login-form {
+  display: flex;
+}
+
+.login-input {
+  padding: 5px 15px;
+  border-radius: 25px;
+  border: 2px solid #ff5617;
+  color: #ff5617;
+  background-color: transparent;
+  width: 280px;
+  margin: 0 auto;
+  font-weight: 900;
+}
+
+.login-input::placeholder {
+  color: white;
+  font-weight: 500;
+}
+
+.btn-login {
+  width: 40px;
+  background-color: #ff55179f;
+  border: 0;
+  margin-left: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-login:hover {
+  background-color: #ff5617;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container {
+    background-position: 50% 0%;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .login-input {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .login-container {
+    background-position: 50% 0%;
+    width: 400px;
+  }
+
+  .login-input {
+    width: 280px;
+  }
+}

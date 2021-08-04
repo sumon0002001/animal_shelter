@@ -1,0 +1,142 @@
+.header-container {
+  background-image: url('../ui/header-bg.jpg');
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+}
+
+.header-icon {
+  margin-right: 20px;
+}
+
+.user-icon {
+  border-radius: 50%;
+}
+
+.flex-right-header {
+  background-color: #0a3c61;
+  transition: all 0.5s ease-in-out;
+  height: 30px;
+  border-radius: 15px;
+  width: 100px;
+}
+
+.main-username {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px;
+  margin: 1px 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+.flex-right-header:hover {
+  background-color: #066fbe;
+  width: 200px;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 45px;
+}
+
+.save-cat-btn {
+  width: 200px;
+  padding: 15px;
+  border-radius: 35px;
+  border: 0;
+  background-color: #066fbe;
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.save-cat-btn:hover {
+  background-color: #0e64a5;
+  border-radius: 0;
+}
+
+.icon-tint {
+  filter: saturate(0%);
+  transition: all 0.3s ease-in-out;
+  margin-left: 5px;
+}
+
+.icon-tint:hover {
+  filter: saturate(80%);
+  cursor: pointer;
+}
+
+.grid-card {
+  display: grid;
+  margin: 10px auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-grid {
+  margin: 80px auto;
+}
+
+.grid-right img {
+  width: 600px;
+}
+
+.grid-left {
+  padding: 100px;
+  text-align: right;
+}
+
+.grid-left-btn {
+  margin-top: 55px;
+  display: flex;
+  justify-content: left;
+}
+
+.grid-left-cat-btn {
+  width: 200px;
+  padding: 10px;
+  border-radius: 35px;
+  border: 0;
+  background-color: rgb(3 3 5 / 89%);
+  color: #f7ab4d;
+  font-weight: 900;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.grid-left-cat-btn:hover {
+  background-color: #000;
+  border-radius: 0;
+}
+
+.user-img {
+  width: 125px !important;
+  border-radius: 50%;
+}
+
+.main-foot {
+  padding: 25px 100px 0 100px;
+  border-top: 5px solid #0a3c61;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.said {
+  color: #415574;
+}
+
+.bg-custom {
+  background-color: #415574;
+}
+
+.color-custom {
+  color: #f7ab4d;
+}

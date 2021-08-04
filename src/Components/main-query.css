@@ -1,0 +1,54 @@
+@media only screen and (max-width: 600px) {
+  .header-container {
+    background-position: 85%;
+  }
+
+  .main-profile-div {
+    display: flex;
+  }
+
+  .header {
+    padding: 50px;
+  }
+
+  .save-cat-btn {
+    width: 129px;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .header-btn {
+    margin-top: 50px;
+    margin-left: 5px;
+  }
+
+  .grid-card {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-left {
+    padding: 0 100px 50px 100px;
+    text-align: center;
+  }
+
+  .grid-right {
+    display: none;
+  }
+
+  .header-grid {
+    margin: 45px auto;
+  }
+
+  .grid-left-cat-btn {
+    width: 200px;
+    padding: 5px;
+  }
+
+  .grid-left-btn {
+    justify-content: center;
+  }
+
+  .carousel-root {
+    display: none;
+  }
+}

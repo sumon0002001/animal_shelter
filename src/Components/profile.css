@@ -1,0 +1,71 @@
+.profile-container {
+  background-color: gainsboro;
+}
+
+.grid-profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-profile-left {
+  margin-right: 100px;
+  height: 125px;
+}
+
+.stars {
+  display: none;
+}
+
+.cat-img {
+  width: 120px;
+  height: 130px;
+}
+
+.user-img-profile {
+  width: 125px;
+  height: 125px;
+}
+
+.grid-profile-right > .grid-right-div {
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-profile {
+  background-color: transparent;
+  border: 1px solid #066fbe;
+  color: #0a3c61;
+  padding: 0 10px;
+  transition: all 0.3s ease-in-out;
+  margin: 5px 5px 0 0;
+}
+
+.btn-profile:hover {
+  background-color: #066fbe;
+  color: white;
+}
+
+.naver {
+  border-bottom: 5px solid #0a3c61;
+}
+
+.grid-right-div:hover {
+  transform: scale(1.1);
+  background-color: #0a3c61 !important;
+  color: white;
+}
+
+.grid-profile-right > .grid-right-div:first-child {
+  margin: 0 0 15px 0;
+}
+
+.grid-right-div:hover .btn-profile {
+  color: white;
+  border: 3px solid white;
+}
+
+.grid-right-div:hover .btn-profile:hover {
+  color: #0a3c61;
+  background-color: white;
+  border: 3px solid #066fbe;
+}

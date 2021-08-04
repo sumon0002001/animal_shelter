@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+  .grid-profile {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-profile-left {
+    height: 125px;
+    border: 5px solid #0a3c61;
+    margin: 0;
+  }
+
+  .user-img-profile {
+    height: 128px;
+    border: 15px solid #0a3c61;
+  }
+
+  .grid-profile-right {
+    border: 10px solid #ffc107;
+    margin-top: 30px;
+    position: relative;
+    background: #ffc107;
+    padding-bottom: 20px;
+    border-top: 10px solid white;
+  }
+
+  .grid-profile-right > .grid-right-div {
+    margin: 15px 0 0 0;
+  }
+
+  .stars {
+    position: absolute;
+    left: -5px;
+    top: -22px;
+    display: block;
+  }
+}

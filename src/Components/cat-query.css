@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  .grid-cats {
+    grid-template-columns: 1fr;
+    grid-gap: 40px 0;
+  }
+
+  .add {
+    width: 100%;
+  }
+
+  .pet-container {
+    margin: 0 auto;
+  }
+
+  .pet-container-div {
+    width: 250px;
+  }
+
+  .tint {
+    width: 100%;
+  }
+}
